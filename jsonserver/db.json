@@ -1,0 +1,56 @@
+{
+  "bugs": [
+    {
+      "id": 4,
+      "name": "yash",
+      "email": "email@yash.com",
+      "website": "www.yash.com"
+    },
+    {
+      "id": 5,
+      "name": "infosys",
+      "email": "email@infosys.com",
+      "website": "www.infosys.com"
+    },
+    {
+      "id": 6,
+      "name": "tcs",
+      "email": "email@tcs.com",
+      "website": "www.tcs.com"
+    },
+    {
+      "name": "Hubot",
+      "login": "hubot",
+      "id": 7
+    },
+    {
+      "name": "Hubot",
+      "login": "hubot",
+      "id": 8
+    },
+    {
+      "name": "tcs6",
+      "email": "email@tcs.com6",
+      "website": "www.tcs.com6",
+      "id": 9
+    },
+    {
+      "name": "shakir",
+      "email": "firstpromo",
+      "website": "i dont",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "website": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "website": "",
+      "id": 12
+    }
+  ]
+}
