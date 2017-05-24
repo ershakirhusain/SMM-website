@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.jpg';
+import { Link } from 'react-router-dom'
 
 class HeaderDisplay extends Component {
   render() {
@@ -16,13 +17,15 @@ class HeaderDisplay extends Component {
 							</a>
 						</div>
 					</div>
-
 					<nav className="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 						<ul id="menu-menu" className="nav navbar-nav">
-							<li className="active dropdown menu-social-media-marketing"><a className="dropdown-toggle" href="#">IT <b className="caret"></b></a>
+							<li className="active dropdown menu-social-media-marketing">
+							<Link to='/' >Home</Link>
 							</li>
 
-							<li className="menu-web-development"><a href="#">Web Development</a></li>
+							<li className="menu-web-development">
+								<Link to='/admin'>Admin</Link>
+							</li>
 						</ul>
 					</nav>
 				</div>
