@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import HeaderDisplay from './header';
+import LoginDisplay from './login/login';
 
 class AdminModule extends Component {
   render() {
     return (
 		<div>
-				<h1>please login</h1>
+			<HeaderDisplay></HeaderDisplay>,		
+			<LoginDisplay></LoginDisplay>,		
 		</div>
     );
   }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.jpg';
 import { Link } from 'react-router-dom'
 
 class HeaderDisplay extends Component {
@@ -13,7 +12,7 @@ class HeaderDisplay extends Component {
 							<span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span>
 						</button>
 						<div id="logo">
-							<a href="#"> <img className="logo-main logo-reg" src={logo} height='50' width='129' alt="Internet Marketing Company | Phoenix, AZ | TestWebsite" />
+							<a href="#"> <img className="logo-main logo-reg"  height='50' width='129' alt="  TestWebsite" />
 							</a>
 						</div>
 					</div>

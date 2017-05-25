@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './images/logo.jpg';
 import HeaderDisplay from './components/header';
 import FooterDisplay from './components/footer';
 import BodyDisplay from './components/body';

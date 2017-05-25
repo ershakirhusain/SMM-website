@@ -48,17 +48,17 @@ class BodyDisplay extends Component {
 
 												<div id="frm_field_92_container" className="frm_form_field form-field  frm_none_container">
 													<label htmlFor="field_ty2k3e" className="frm_primary_label">Name <span className="frm_required"></span>
-													</label> <input type="text" id="field_ty2k3e" name="item_meta[92]" ref={(nameTxt) => {this.nameTxt = nameTxt}} />
+													</label> <input type="text" id="field_ty2k3e" name="item_meta[92]" placeholder="enter firstname" ref={(nameTxt) => {this.nameTxt = nameTxt}} />
 
 												</div>
 												<div id="frm_field_93_container" className="frm_form_field form-field  frm_none_container">
 													<label htmlFor="field_pwwgc8" className="frm_primary_label">Email Address <span className="frm_required"></span>
-													</label> <input type="text" id="field_pwwgc8" name="item_meta[93]"  ref={(emailTxt) => {this.emailTxt = emailTxt}} />
+													</label> <input type="text" id="field_pwwgc8" name="item_meta[93]" placeholder="enter email"  ref={(emailTxt) => {this.emailTxt = emailTxt}} />
 
 												</div>
 												<div id="frm_field_94_container" className="frm_form_field form-field  frm_none_container">
 													<label htmlFor="field_d5g4pb" className="frm_primary_label">Website/URL <span className="frm_required"></span>
-													</label> <input type="text" id="field_d5g4pb" name="item_meta[94]"  ref={(websiteTxt) => {this.websiteTxt = websiteTxt}} />
+													</label> <input type="text" id="field_d5g4pb" name="item_meta[94]" placeholder="enter website"  ref={(websiteTxt) => {this.websiteTxt = websiteTxt}} />
 
 												</div>
 												<input type="hidden" name="item_key" value="" />
